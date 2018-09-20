@@ -3,8 +3,8 @@
 ##
 image:
   registry: docker.io
-  repository: bitnami/wordpress
-  tag: 4.9.8-debian-9
+  repository: wordpress
+  tag: latest
   pullPolicy: IfNotPresent
   ## Optionally specify an array of imagePullSecrets.
   ## Secrets must be manually created in the namespace.
@@ -96,8 +96,8 @@ mariadb:
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#creating-a-database-user-on-first-run
   ##
   db:
-    name: bitnami_wordpress
-    user: bn_wordpress
+    name: wordpress
+    user: wordpress
     ## If the password is not specified, mariadb will generates a random password
     ##
     # password:
