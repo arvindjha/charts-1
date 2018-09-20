@@ -26,7 +26,7 @@ questions:
     type: string
     label: MariaDB Image Name
   - variable: mariadb.image.tag
-    default: "mariadb"
+    default: "latest"
     description: "MariaDB image tag"
     type: string
     label: MariaDB Image Tag
